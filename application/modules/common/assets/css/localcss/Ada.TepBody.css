@@ -1,0 +1,67 @@
+.xCNBody_wrap {
+    min-height: 450px;
+    padding: 7px;
+}
+
+.xCNBody_wrap .xCNContainer {
+    background-color: #FFF;
+    min-height: 450px;
+}
+
+body {
+    background: #F5F5F5;
+    font-size: 16px;
+}
+
+.xCNContainer {
+    background: #FFF;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1000px;
+    min-width: 320px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Style the search field */
+
+.xCNExample input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 20%;
+    background: #f1f1f1;
+}
+
+
+/* Style the submit button */
+
+.xCNExample button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
+}
+
+.xCNExample button:hover {
+    background: #0b7dda;
+}
+
+
+/* Clear floats */
+
+.xCNExample::after {
+    content: "";
+    clear: both;
+    display: table;
+}
